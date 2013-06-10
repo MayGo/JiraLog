@@ -59,7 +59,7 @@ class JiraLogController {
 			final JiraRestClient restClient = factory.createWithBasicHttpAuthentication(jiraServerUri, username, password );
 
 			execInsideUIAsync{ model.message="Starting to search....." }
-			SearchResult searchResultForNull = restClient.getSearchClient().searchJql(query, 700, 0, progressMonitor);
+			SearchResult searchResultForNull = restClient.getSearchClient().searchJql(query, 7000, 0, progressMonitor);
 
 			withJpa { String persistenceUnit, EntityManager em ->
 				try{
