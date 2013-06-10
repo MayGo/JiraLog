@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$USER_HOME$/.griffon/1.3.0/projects/JiraLog/plugins/eclipse-support-0.7.1" />
+    <content url="file://$USER_HOME$/.griffon/1.3.0/projects/JiraLog/plugins/groovyfx-0.9.0" />
+    <content url="file://$USER_HOME$/.griffon/1.3.0/projects/JiraLog/plugins/javafx-0.9.0" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="griffon-1.3.0" level="application" />
+    <orderEntry type="module-library" exported="">
+      <library name="Griffon:lib (JiraLog-griffonPlugins)">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
+
