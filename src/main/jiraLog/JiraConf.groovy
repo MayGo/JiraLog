@@ -9,7 +9,7 @@ import javax.persistence.UniqueConstraint;
 
 @Entity
 @Table(uniqueConstraints = @UniqueConstraint(columnNames = [
-	"url", "username","query"
+	"url", "username", "query", "worklogAuthor"
 ]))
 class JiraConf {
 
@@ -17,12 +17,13 @@ class JiraConf {
 	@GeneratedValue(strategy = GenerationType.SEQUENCE)
 	Long id
 
-	String url
-	String username
-	String query
+	String url = ""
+	String username = ""
+	String worklogAuthor = ""
+	String query = ""
 
 	@Override
 	public String toString() {
-		return query+" : " + username + "@" + url
+		return query+" : "+worklogAuthor+" " + username + "@" + url
 	}
 }

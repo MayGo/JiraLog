@@ -11,6 +11,7 @@ class JiraLogModel {
 	@FXBindable String minutesSpentTotal = "0."
 	@FXBindable String jiraUrl        =""
 	@FXBindable String jiraUsername   =""
+	@FXBindable String jiraWorklogAuthor   =""
 	@FXBindable String jiraPassword     =""
 	@FXBindable String jiraQuery     =""
 	@FXBindable String message     =""

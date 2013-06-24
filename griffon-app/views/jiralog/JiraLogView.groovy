@@ -32,7 +32,11 @@ application(title: 'Jira Logged Hours', sizeToScene: true, centerOnScreen: true)
 							text 'Query', row: 4, column: 0, valignment: BASELINE
 							textField id: 'jiraQueryText', row: 4, column: 1,text: bind(model.jiraQueryProperty),prefWidth: 400,onAction: controller.load
 
-							button id: 'submit', row: 5, column: 1, halignment: RIGHT,
+							text 'Worklog Author', row: 5, column: 0
+							textField id: 'jiraWorklogAuthorText', row:5, column: 1 ,text: bind(model.jiraWorklogAuthorProperty),onAction: controller.load
+
+							
+							button id: 'submit', row: 6, column: 1, halignment: RIGHT,
 							"Connect & Load",onAction: controller.load
 						}
 					}

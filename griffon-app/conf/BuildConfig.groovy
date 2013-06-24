@@ -176,7 +176,8 @@ griffon.project.dependency.resolution = {
 			exclude 'javax.persistence'
 		}
 		compile('com.h2database:h2:1.3.167')
-        compile 'com.atlassian.jira:jira-rest-java-client:1.0'
+        compile 'com.atlassian.jira:jira-rest-java-client:2.0.0-m2'
+		compile 'com.atlassian.util.concurrent:atlassian-util-concurrent:2.4.1'
 		compile 'org.codehaus.gpars:gpars:0.11'
     }
 }
