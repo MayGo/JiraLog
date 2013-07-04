@@ -161,11 +161,11 @@ griffon.project.dependency.resolution = {
 
         // uncomment the below to enable remote dependency resolution
         // from public Maven repositories
-        //mavenLocal()
-        //mavenCentral()
-        //mavenRepo "http://snapshots.repository.codehaus.org"
-        //mavenRepo "http://repository.codehaus.org"
-        //mavenRepo "http://download.java.net/maven/2/"
+        mavenLocal()
+        mavenCentral()
+        mavenRepo "http://snapshots.repository.codehaus.org"
+        mavenRepo "http://repository.codehaus.org"
+        mavenRepo "http://download.java.net/maven/2/"
         mavenRepo "https://m2proxy.atlassian.com/repository/public/"
 		mavenRepo 'http://download.eclipse.org/rt/eclipselink/maven.repo/'
 		mavenRepo 'http://repository.jboss.org/maven2/'
